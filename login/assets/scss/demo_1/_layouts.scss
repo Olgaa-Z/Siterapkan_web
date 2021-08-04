@@ -1,0 +1,9 @@
+.navbar {
+    &.fixed-top {
+        +.page-body-wrapper {
+            padding-top: $navbar-height;
+        }
+    }
+}
+
+// Adjust the spacing from top if the purchase banner exist
